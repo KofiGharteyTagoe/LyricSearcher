@@ -1,0 +1,35 @@
+@import './form.scss';
+
+.App {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+}
+
+.container{
+  background: #282c34;
+  color: white;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  display: inline-flex;
+  border-radius: 5px;
+}
+
+.left-panel{
+  background-color: red;
+  border-radius: 5px;
+  width: 40%;
+}
+
+.right-panel{
+  background-color: blue;
+  border-radius: 5px;
+  width: 60%;
+}
